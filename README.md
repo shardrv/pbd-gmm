@@ -15,7 +15,7 @@ git clone https://gitlab.idiap.ch/rli/pbdlib-python.git
 
 ### Setup Environment
 
-Within the *pbdlin-python* folder setup the python 2.7 virtual environment using:
+Within the *pbdlib-python* folder setup the python 2.7 virtual environment using:
 
 ```
 virtualenv -p /usr/bin/python2,7 py27venv
