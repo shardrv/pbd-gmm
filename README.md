@@ -46,6 +46,14 @@ You will need the *new_traj.mat* matlab file in the RobotData folder within the 
 Now all your trajectories are read and displayed in the jupyter file.
 
 
+### Stored values in files
+
+Navigating to the folder */home/hulk/Documents/waypoints/* you will find two files *f1.txt* and *f2.txt*. 
+
+These files contain the saved values of the SIGMA and MU values as well as each trajectory points.
+
+Check it out to plot the Gaussians and the reconstructed trajectory by editing the values in the *Display_Gaussians.m* file. *This file uses the *plot_gaussian_ellipsoid.m* file also enclosed in the repo*
+
 *This work is a combined effort of the Computer Vision and Robotics Laborartory at the University of Alberta under the supervision of Dr. Martin Jagersand.*
 
 
