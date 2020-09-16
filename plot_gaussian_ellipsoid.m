@@ -1,3 +1,11 @@
+%  Gautam Vallabha, Sep-23-2007, Gautam.Vallabha@mathworks.com
+
+%  Revision 1.0, Sep-23-2007
+%    - File created
+%  Revision 1.1, 26-Sep-2007
+%    - NARGOUT==0 check added.
+%    - Help added on NPTS for ellipsoids
+
 function h = plot_gaussian_ellipsoid(m, C, sdwidth, npts, axh)
 % PLOT_GAUSSIAN_ELLIPSOIDS plots 2-d and 3-d Gaussian distributions
 %
@@ -48,14 +56,6 @@ function h = plot_gaussian_ellipsoid(m, C, sdwidth, npts, axh)
 %  view(129,36); set(gca,'proj','perspective'); grid on; 
 %  grid on; axis equal; axis tight;
 % -------------------------------------------
-% 
-%  Gautam Vallabha, Sep-23-2007, Gautam.Vallabha@mathworks.com
-
-%  Revision 1.0, Sep-23-2007
-%    - File created
-%  Revision 1.1, 26-Sep-2007
-%    - NARGOUT==0 check added.
-%    - Help added on NPTS for ellipsoids
 
 if ~exist('sdwidth', 'var'), sdwidth = 1; end
 if ~exist('npts', 'var'), npts = []; end
